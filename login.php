@@ -46,6 +46,8 @@
           <?php if(in_array("Email or password was incorrect<br>",$error_array))
                 echo "Email or password was incorrect<br>"; ?>
           <a href="#" id="signup" class="signup">Want to sign-in with username instead? Click here!</a>
+          <br>
+          <a href="./register.php">Have no account? Register now!</a>
         </form>
       </div>
 
@@ -62,6 +64,8 @@
           <?php if(in_array("Username or password was incorrect<br>",$error_array))
                 echo "Username or password was incorrect<br>"; ?>
           <a href="#" id="login" class="login">Want to sign-in with email instead? Click here!</a>
+          <br>
+          <a href="./register.php">Have no account? Register now!</a>
         </form>
       </div>
     </div>
