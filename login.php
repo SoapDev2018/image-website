@@ -1,6 +1,5 @@
 <?php
   require './config/config.php';
-  require './includes/form_handlers/register_handler.php';
   require './includes/form_handlers/login_handler.php';
 ?>
 
@@ -17,7 +16,7 @@
 </head>
 <body>
   <?php
-    if(isset($_POST['register_btn'])) {
+    if(isset($_POST['login_u_btn'])) {
       echo '
         <script>
           $(document).ready(function () {
@@ -44,6 +43,8 @@
           <br>
           <input type="submit" name="login_e_btn" value="Login!">
           <br>
+          <?php if(in_array("Email or password was incorrect<br>",$error_array))
+                echo "Email or password was incorrect<br>"; ?>
           <a href="#" id="signup" class="signup">Want to sign-in with username instead? Click here!</a>
         </form>
       </div>
@@ -58,6 +59,8 @@
           <br>
           <input type="submit" name="login_u_btn" value="Login!">
           <br>
+          <?php if(in_array("Username or password was incorrect<br>",$error_array))
+                echo "Username or password was incorrect<br>"; ?>
           <a href="#" id="login" class="login">Want to sign-in with email instead? Click here!</a>
         </form>
       </div>

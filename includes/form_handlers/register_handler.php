@@ -94,67 +94,67 @@
       $profile_pic = "";
       switch($rand) {
         case 1:
-          $profile_pic="./assets/images/profile_pics/defaults/1.png";
+          $profile_pic="./assets/images/profile_pics/defaults/1.jpg";
           break;
         case 2:
-          $profile_pic="./assets/images/profile_pics/defaults/2.png";
+          $profile_pic="./assets/images/profile_pics/defaults/2.jpg";
           break;
         case 3:
-          $profile_pic="./assets/images/profile_pics/defaults/3.png";
+          $profile_pic="./assets/images/profile_pics/defaults/3.jpg";
           break;
         case 4:
-          $profile_pic="./assets/images/profile_pics/defaults/4.png";
+          $profile_pic="./assets/images/profile_pics/defaults/4.jpg";
           break;
         case 5:
-          $profile_pic="./assets/images/profile_pics/defaults/5.png";
+          $profile_pic="./assets/images/profile_pics/defaults/5.jpg";
           break;
         case 6:
-          $profile_pic="./assets/images/profile_pics/defaults/6.png";
+          $profile_pic="./assets/images/profile_pics/defaults/6.jpg";
           break;
         case 7:
-          $profile_pic="./assets/images/profile_pics/defaults/7.png";
+          $profile_pic="./assets/images/profile_pics/defaults/7.jpg";
           break;
         case 8:
-          $profile_pic="./assets/images/profile_pics/defaults/8.png";
+          $profile_pic="./assets/images/profile_pics/defaults/8.jpg";
           break;
         case 9:
-          $profile_pic="./assets/images/profile_pics/defaults/9.png";
+          $profile_pic="./assets/images/profile_pics/defaults/9.jpg";
           break;
         case 10:
-          $profile_pic="./assets/images/profile_pics/defaults/10.png";
+          $profile_pic="./assets/images/profile_pics/defaults/10.jpg";
           break;
         case 11:
-          $profile_pic="./assets/images/profile_pics/defaults/11.png";
+          $profile_pic="./assets/images/profile_pics/defaults/11.jpg";
           break;
         case 12:
-          $profile_pic="./assets/images/profile_pics/defaults/12.png";
+          $profile_pic="./assets/images/profile_pics/defaults/12.jpg";
           break;
         case 13:
-          $profile_pic="./assets/images/profile_pics/defaults/13.png";
+          $profile_pic="./assets/images/profile_pics/defaults/13.jpg";
           break;
         case 14:
-          $profile_pic="./assets/images/profile_pics/defaults/14.png";
+          $profile_pic="./assets/images/profile_pics/defaults/14.jpg";
           break;
         case 15:
-          $profile_pic="./assets/images/profile_pics/defaults/15.png";
+          $profile_pic="./assets/images/profile_pics/defaults/15.jpg";
           break;
         case 16:
-          $profile_pic="./assets/images/profile_pics/defaults/16.png";
+          $profile_pic="./assets/images/profile_pics/defaults/16.jpg";
           break;
         case 17:
-          $profile_pic="./assets/images/profile_pics/defaults/17.png";
+          $profile_pic="./assets/images/profile_pics/defaults/17.jpg";
           break;
         case 18:
-          $profile_pic="./assets/images/profile_pics/defaults/18.png";
+          $profile_pic="./assets/images/profile_pics/defaults/18.jpg";
           break;
         case 19:
-          $profile_pic="./assets/images/profile_pics/defaults/19.png";
+          $profile_pic="./assets/images/profile_pics/defaults/19.jpg";
           break;
         case 20:
-          $profile_pic="./assets/images/profile_pics/defaults/20.png";
+          $profile_pic="./assets/images/profile_pics/defaults/20.jpg";
           break;
         default:
-          $profile_pic="./assets/images/profile_pics/defaults/1.png";  
+          $profile_pic="./assets/images/profile_pics/defaults/1.jpg";  
       }
 
       $query = mysqli_query($con, "INSERT INTO users VALUES ('','$fname','$lname','$username','$em','$password','$bday_date','$signup_date','$profile_pic','no')");
