@@ -1,4 +1,4 @@
-THis is hobby project of a image sharing website. Following features are 
+This is hobby project of a image sharing website. Following features are 
 to be implemented:
 <hr>
 ->Followers system. Option to hide followers/following or both.<br>
