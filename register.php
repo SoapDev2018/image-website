@@ -64,7 +64,7 @@
           if(isset($_SESSION['phone'])) echo $_SESSION['phone']
         ?>" required>
         <br>
-        <input type="text" name="input" placeholder="Birthday(YYYY-MM-DD)" required pattern="(?:19|20)[0-9]{2}-(?:(?:0[1-9]|1[0-2])/(?:0[1-9]|1[0-9]|2[0-9])|(?:(?!02)(?:0[1-9]|1[0-2])/(?:30))|(?:(?:0[13578]|1[02])-31))" value="<?php 
+        <input type="date" name="bday" placeholder="Birthday(YYYY-MM-DD)" value="<?php 
           if(isset($_SESSION['bday'])) echo $_SESSION['bday']
         ?>" required>
         <br>
